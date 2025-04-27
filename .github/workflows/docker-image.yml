@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Docker Image
       run:
-        docker build -t NanoLaravel/docker-graphql:0.0.2 .
+        docker build -t nanolaravel/docker-graphql:0.0.2 .
 
     
     - name: Push Docker Image
