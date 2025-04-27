@@ -27,12 +27,12 @@ jobs:
 
     - name: Build Docker Image
       run:
-        docker build -t nanolaravel/docker-graphql:0.0.2 .
+        docker build -t herfandoc72/docker-graphql:0.0.2 .
 
     
     - name: Push Docker Image
       run:        
-        docker push nanolaravel/docker-graphql:0.0.2
+        docker push herfandoc72/docker-graphql:0.0.2
     
     
         
